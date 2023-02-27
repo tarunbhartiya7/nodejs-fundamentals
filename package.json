@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon --exec node_modules/.bin/babel-node index.js",
     "task1": "nodemon task1.js",
-    "task2": "node_modules/.bin/babel-node task2.js"
+    "task2": "node_modules/.bin/babel-node task2.js",
+    "task2-streams": "node_modules/.bin/babel-node task2-streams.js"
   },
   "repository": {
     "type": "git",
