@@ -1,0 +1,31 @@
+GET http://localhost:8080/api/users
+
+###
+
+GET http://localhost:8080/api/users/ae0b45b7-92e0-4cba-bd63-e26192302285
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "test",
+    "password": "password",
+    "age": 31
+}
+
+###
+
+PUT http://localhost:8080/api/users/573e2360-79ae-4c05-9127-603f498244ca
+Content-Type: application/json
+
+{
+    "age": 25
+}
+
+###
+
+DELETE http://localhost:8080/api/users/573e2360-79ae-4c05-9127-603f498244ca
+
+###
