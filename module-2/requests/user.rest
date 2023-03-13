@@ -2,6 +2,10 @@ GET http://localhost:8080/api/users
 
 ###
 
+GET http://localhost:8080/api/users?substr=am&limit=3
+
+###
+
 GET http://localhost:8080/api/users/ae0b45b7-92e0-4cba-bd63-e26192302285
 
 ###
@@ -10,9 +14,9 @@ POST http://localhost:8080/api/users
 Content-Type: application/json
 
 {
-    "username": "test",
-    "password": "password",
-    "age": 31
+    "login": "vam",
+    "password": "password123",
+    "age": 21
 }
 
 ###
